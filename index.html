@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jastech Infosys Pvt. Ltd.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Jastech-logo" class="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Jastech Infosys Private Limited</h1>
+      <h2>WE PROVIDE. <span id="typewriter"></span></h2>
+      <a href="services.html" class="glass-btn"><span>Learn More</span></a>
+    </div>
+    <div class="hero-illustration glass-box">
+      <div class="model-cropper">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.86/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/dzY4lw6xI7tG6bJL/scene.splinecode"></spline-viewer>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="card">
+        <h3>Software Tools</h3>
+        <p>Cutting-edge software for productivity and automation.</p>
+        <a href="software-tools.html" class="glass-btn"><span>Explore</span></a>
+      </div>
+      <div class="card">
+        <h3>Hardware Systems</h3>
+        <p>Robust hardware solutions for enterprises.</p>
+        <a href="hardware-systems.html" class="glass-btn"><span>Explore</span></a>
+      </div>
+      <div class="card">
+        <h3>Automation Kits</h3>
+        <p>Pre-built kits for AI and robotics automation.</p>
+        <a href="automation-kits.html" class="glass-btn"><span>Explore</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Custom Software Development</h3>
+        <p>Tailored solutions for your business.</p>
+        <a href="custom-software.html" class="glass-btn"><span>Explore</span></a>
+      </div>
+      <div class="card">
+        <h3>AI & Automation Solutions</h3>
+        <p>Integrate AI and automation into workflows.</p>
+        <a href="ai-automation.html" class="glass-btn"><span>Explore</span></a>
+      </div>
+      <div class="card">
+        <h3>Web & App Development</h3>
+        <p>Responsive web & mobile applications.</p>
+        <a href="web-app.html" class="glass-btn"><span>Explore</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients">
+    <h2>Our Clients</h2>
+    <div class="carousel-container">
+      <div class="carousel-track" id="track">
+        <div class="card"><img src="https://i.pravatar.cc/150?img=1">
+          <h3>Client 1</h3>
+          <p>Tech Solutions</p>
+        </div>
+        <div class="card"><img src="https://i.pravatar.cc/150?img=2">
+          <h3>Client 2</h3>
+          <p>AI Innovators</p>
+        </div>
+        <div class="card"><img src="https://i.pravatar.cc/150?img=3">
+          <h3>Client 3</h3>
+          <p>Web Corp</p>
+        </div>
+        <div class="card"><img src="https://i.pravatar.cc/150?img=4">
+          <h3>Client 4</h3>
+          <p>Data Masters</p>
+        </div>
+        <div class="card"><img src="https://i.pravatar.cc/150?img=5">
+          <h3>Client 5</h3>
+          <p>Smart Systems</p>
+        </div>
+        <div class="card"><img src="https://i.pravatar.cc/150?img=6">
+          <h3>Client 6</h3>
+          <p>Design Labs</p>
+        </div>
+      </div>
+      <button class="button prev" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="button next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+  </section>
+
+  <section id="contact" class="contact glass-box">
+    <h2>Contact Us / Enquiry</h2>
+    <form>
+      <div class="input-group">
+        <input type="text" id="name" placeholder=" " required>
+        <label for="name">Your Name</label>
+      </div>
+      <div class="input-group">
+        <input type="email" id="email" placeholder=" " required>
+        <label for="email">Your Email</label>
+      </div>
+      <div class="input-group">
+        <textarea id="message" rows="4" placeholder=" " required></textarea>
+        <label for="message">Your Message</label>
+      </div>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glassy Footer | Jastech Infosys</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <!-- Your main content -->
+
+    <footer
+    class="w-full bg-gradient-to-r from-white/40 via-cyan-100/40 to-white/40 backdrop-blur-2xl border-t border-white/30 shadow-[0_0_25px_rgba(180,220,255,0.5)] text-black py-10 relative overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-tr from-cyan-200/40 via-transparent to-white/20 blur-3xl opacity-60">
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
+
+      <!-- Company Info -->
+      <div>
+        <h2 class="text-2xl font-bold mb-3 text-gray-900 drop-shadow">Jastech Infosys Pvt. Ltd.</h2>
+        <p class="text-sm text-gray-800 leading-relaxed">
+          JASTECH Infosystems provides business and technology consulting to help clients fully harness the potential of
+          the Cloud.
+          Our team brings vast experience in crafting and delivering vertical-specific implementations.
+        </p>
+        <p class="mt-4 italic text-sm text-gray-700 opacity-80">“Try not to become a man of success. Rather become a man
+          of value.”</p>
+      </div>
+
+      <!-- Navigation -->
+      <div>
+        <h3 class="text-lg font-semibold mb-3 text-gray-900">Navigation</h3>
+        <ul class="space-y-2 text-sm text-gray-800">
+          <li><a href="#" class="hover:text-cyan-700 transition">Home</a></li>
+          <li><a href="#" class="hover:text-cyan-700 transition">About Us</a></li>
+          <li><a href="#" class="hover:text-cyan-700 transition">Clients</a></li>
+          <li><a href="#" class="hover:text-cyan-700 transition">Contact Us / Enquiry</a></li>
+        </ul>
+      </div>
+
+      <!-- Products & Services -->
+      <div class="grid grid-cols-2 gap-6">
+        <div>
+          <h3 class="text-lg font-semibold mb-3 text-gray-900">Products</h3>
+          <ul class="space-y-2 text-sm text-gray-800">
+            <li><a href="#" class="hover:text-cyan-700 transition">CITRIX / VMWare</a></li>
+            <li><a href="#" class="hover:text-cyan-700 transition">CATechnology / Tools</a></li>
+            <li><a href="#" class="hover:text-cyan-700 transition">Firewalls UTM</a></li>
+            <li><a href="#" class="hover:text-cyan-700 transition">Racks</a></li>
+            <li><a href="#" class="hover:text-cyan-700 transition">Printers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-lg font-semibold mb-3 text-gray-900">Services</h3>
+          <ul class="space-y-2 text-sm text-gray-800">
+            <li><a href="#" class="hover:text-cyan-700 transition">CITRIX / VMWare</a></li>
+            <li><a href="#" class="hover:text-cyan-700 transition">CATechnology / Tools</a></li>
+            <li><a href="#" class="hover:text-cyan-700 transition">Firewalls UTM</a></li>
+            <li><a href="#" class="hover:text-cyan-700 transition">Racks</a></li>
+            <li><a href="#" class="hover:text-cyan-700 transition">Printers</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="mt-10 text-center text-xs text-gray-700 relative z-10">
+      © 2025 Jastech Infosys Pvt. Ltd. | All Rights Reserved.
+    </div>
+  </footer>
+
+    <!-- Chatbot Button -->
+    <button class="chatbot-btn" id="chat-btn">💬</button>
+
+    <!-- Chatbot Panel -->
+    <div class="chatbot" id="chatbot">
+      <div class="chatbot-header">Chat with Us</div>
+      <div class="chatbot-body" id="chat-body"></div>
+      <div class="chatbot-footer">
+        <input type="text" id="chat-input" placeholder="Type a message..." />
+        <button id="chat-send">Send</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+
+  </html>
